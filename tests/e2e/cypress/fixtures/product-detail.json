@@ -1,0 +1,66 @@
+{
+  "product": {
+    "id": "prod-1",
+    "name": "Classic White Tablecloth",
+    "description": "Elegant white tablecloth perfect for any occasion. Made from high-quality cotton for durability and stain resistance. Our classic white tablecloth is designed to complement any table setting and is ideal for both everyday use and special occasions.\n\nFeatures:\n- 100% premium cotton\n- Stain-resistant treatment\n- Machine washable\n- Wrinkle-resistant finish\n- Hemmed edges for durability\n\nThis timeless tablecloth adds a touch of elegance to your dining experience while being practical and easy to maintain.",
+    "price": 49.99,
+    "category": "tablecloths",
+    "stock_status": "in_stock",
+    "featured": true,
+    "images": [
+      {
+        "id": "img-1-1",
+        "url": "/assets/products/classic-white-tablecloth-1.jpg",
+        "alt": "Classic white tablecloth on a dining table",
+        "is_primary": true
+      },
+      {
+        "id": "img-1-2",
+        "url": "/assets/products/classic-white-tablecloth-2.jpg",
+        "alt": "Close-up of classic white tablecloth material",
+        "is_primary": false
+      },
+      {
+        "id": "img-1-3",
+        "url": "/assets/products/classic-white-tablecloth-3.jpg",
+        "alt": "Classic white tablecloth in use during a dinner party",
+        "is_primary": false
+      },
+      {
+        "id": "img-1-4",
+        "url": "/assets/products/classic-white-tablecloth-4.jpg",
+        "alt": "Folded classic white tablecloth showing texture",
+        "is_primary": false
+      }
+    ],
+    "custom_options": {
+      "has_custom_size": true,
+      "default_sizes": [
+        { "name": "Small", "width": 52, "length": 70, "price": 49.99 },
+        { "name": "Medium", "width": 60, "length": 84, "price": 59.99 },
+        { "name": "Large", "width": 60, "length": 102, "price": 69.99 },
+        { "name": "X-Large", "width": 70, "length": 120, "price": 79.99 }
+      ],
+      "price_tiers": [
+        { "min_sqft": 0, "max_sqft": 25, "price_per_sqft": 1.2 },
+        { "min_sqft": 25, "max_sqft": 50, "price_per_sqft": 1.0 },
+        { "min_sqft": 50, "max_sqft": 100, "price_per_sqft": 0.9 },
+        { "min_sqft": 100, "max_sqft": null, "price_per_sqft": 0.8 }
+      ],
+      "min_dimensions": { "width": 24, "length": 24 },
+      "max_dimensions": { "width": 120, "length": 200 }
+    },
+    "care_instructions": "Machine wash cold with like colors. Gentle cycle with mild detergent. Tumble dry low. Iron on medium heat if needed.",
+    "material": "100% Cotton",
+    "color": "White",
+    "dimensions": "Available in multiple sizes",
+    "weight": "0.8 lbs - 2.5 lbs depending on size",
+    "related_products": ["prod-5", "prod-2", "prod-3"],
+    "reviews": {
+      "average_rating": 4.8,
+      "count": 124
+    },
+    "created_at": "2024-01-01T12:00:00Z",
+    "updated_at": "2024-02-15T14:30:00Z"
+  }
+}
